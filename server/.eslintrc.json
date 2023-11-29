@@ -8,5 +8,9 @@
   "parserOptions": {
     "ecmaVersion": "latest"
   },
-  "rules": {}
+  "rules": {
+    "semi": "off",
+    "quotes": "off",
+    "comma-dangle": ["error", "always-multiline"]
+  }
 }
